@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@drawable/fondoalertas"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/queMes"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:text="Hoy"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                />
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/alertalluvia"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Probabilidad de lluvias:"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="02h-08h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/dosaocho"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="08h-14h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/ochoados"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="14h-20h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/dosavocho"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="20h-02h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/vochoados"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/alertatormenta"
+
+                    />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Probabilidad de Tormenta:"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="02h-08h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/torm28"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="08h-14h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/torm814"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="14h-20h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/torm1420"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="20h-02h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/torm2002"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/alertanieve"
+
+                    />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Probabilidad de Nieve:"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="02h-08h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/niev28"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="08h-14h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/niev814"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="14h-20h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/niev1420"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="20h-02h: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/niev2002"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/termo"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Temperatura:"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/tempera"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/senstermica"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Sensación Térmica:"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/termica"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/humedadrelativa"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Humedad relativa:"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/humi"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

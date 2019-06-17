@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"  android:background="@drawable/fondolunita"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/queMes"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:text="Mes"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center"
+                />
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/lunallena"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Luna Llena"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="Dia: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/diasLlena"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:text="Recolecta los cultivos cuyos frutos sean comestibles y hortalizas de hoja.\nAumenta la cantidad de agua en el riego.\nTransplanta los cultivos que lo requieran.\nSi utilizas fertilizantes liquidos, aplicalos."
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/cuartomenguante"
+
+                    />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Cuarto Menguante"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="Dia: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/diasMengua"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:text="Siembra los vegetales cuya parte comestible crece bajo la tierra.\nAbona los cultivos con estiércol y restos de materia vegetal.\nAplica insecticidas orgánicos.\nRiega sin mojar las yemas y botones florales.\nRealiza injertos, trasplantes y podas."
+
+                        />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/lunanueva"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Luna Nueva"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="Dia: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/diasNueva"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:text="Ideal para cosecha de raiz.\nRetira las hojas y botones florales marchitos y secos.\nRotura los sustratos consiguiendo suelos más aireados y sueltos.\nDisminuye la cantidad de agua en el riego.\nDesmaleza tu huerta eliminando las malas hierbas."
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_gravity="center"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/cuartocreciente"
+
+                    />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:text="Cuarto Creciente"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:text="Dia: "
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/diasCreci"
+                            android:layout_marginStart="10dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#ffffffff"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffffff"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:text="Propicia para sembrar y repicar plantas cuyas partes comestibles están por encima de la tierra y dan frutos.\nAplica fertilizantes y abonos con previo laboreo del suelo.\nDisminuye la cantidad de agua en el riego."
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

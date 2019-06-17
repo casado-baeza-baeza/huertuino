@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_regar"
+        android:icon="@drawable/regar"
+        android:title="riego"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_llovera"
+        android:icon="@drawable/lloveraa"
+        android:title="lluvia"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_luna"
+        android:title="luna"
+        android:icon="@drawable/lunita"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_volver"
+        android:title="volver"
+        android:icon="@drawable/volver"
+        app:showAsAction="ifRoom" />
+
+</menu>

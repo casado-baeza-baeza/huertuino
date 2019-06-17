@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/huertuino"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/layout1"
+        android:orientation="vertical"
+        android:background="@drawable/huercielo"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/textAemetTemp"
+                android:textSize="60dp"
+                android:textStyle="bold"
+
+
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/iconoCielo"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:id="@+id/municipio"
+
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:id="@+id/ortoocaso"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        app:layout_constraintTop_toBottomOf="@id/layout1"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tu Huerto:"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:id="@+id/Huerto"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humedad del aire"
+                android:textColor="#193114"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/Hum.Aire"
+                app:layout_constraintTop_toBottomOf="@id/Huerto"
+
+
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/Hum.Aire"
+                >
+
+                <ProgressBar
+                    android:id="@+id/barraire"
+
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="280dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/textView7"
+                    android:layout_centerVertical="true"
+                    android:scaleY="5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/humiAire"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:background="#00FFFFFF"
+                    android:layout_centerVertical="true"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="Humedad de la tierra"
+                android:textColor="#193114"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/Hum.Tierra"
+                app:layout_constraintTop_toBottomOf="@id/barraire"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/Hum.Tierra"
+                android:orientation="horizontal"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    >
+                    <ProgressBar
+                        android:id="@+id/barratierra"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="280dp"
+                        android:layout_height="20dp"
+                        android:layout_below="@+id/textView7"
+                        android:layout_centerHorizontal="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:scaleY="5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/porcenTierra"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:background="#00FFFFFF"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/alertatierra"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/barratierra"
+                        app:srcCompat="@drawable/alerta"
+                        android:background="#00DFFFFF"
+
+                        />
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperatura"
+                android:textColor="#193114"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/temper"
+                app:layout_constraintTop_toBottomOf="@id/barratierra"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/relativaTemp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/temper"
+                >
+
+                <ProgressBar
+                    android:id="@+id/barraTemp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="280dp"
+                    android:layout_height="20dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:scaleY="5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Temp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:background="#00FFFFFF"
+                    />
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <!-- Appbar -->
+
+        <com.github.rubensousa.floatingtoolbar.FloatingToolbar
+            android:id="@+id/floatingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"
+
+            app:floatingMenu="@menu/main" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/acciones" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

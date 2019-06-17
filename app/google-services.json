@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "272672789932",
+    "firebase_url": "https://huertuino.firebaseio.com",
+    "project_id": "huertuino",
+    "storage_bucket": "huertuino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272672789932:android:b11155d6884c91a8",
+        "android_client_info": {
+          "package_name": "com.example.huertuino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272672789932-1kp1e4indn3kvpu3nodhsvp5g2qqh77j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.huertuino",
+            "certificate_hash": "7e48039cafb4c822af1846c7c04f64b549bde6b3"
+          }
+        },
+        {
+          "client_id": "272672789932-kdqttttqju1p59r8d2pqijd8r1k3p1fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRn_WgHcee3fpMIF41b1J4DzuAP9sD3EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272672789932-kdqttttqju1p59r8d2pqijd8r1k3p1fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
